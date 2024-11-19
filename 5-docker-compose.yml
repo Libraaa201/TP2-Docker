@@ -1,0 +1,7 @@
+services:
+  convos:
+    image: ghcr.io/convos-chat/convos:stable
+    ports:
+      - 2021:3000
+    volumes:
+      - C:/Users/kylia/OneDrive/Documents/M1 Cyber/devops/TP2/convos:/data
